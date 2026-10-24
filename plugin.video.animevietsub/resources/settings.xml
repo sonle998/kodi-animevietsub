@@ -1,0 +1,7 @@
+<settings>
+ <category label="AnimeVietsub">
+  <setting id="base_url" type="text" label="Địa chỉ website (HTTPS)" default="https://animevietsub.sale/"/>
+  <setting id="timeout" type="number" label="Thời gian chờ mạng (giây)" default="20"/>
+  <setting id="quality" type="enum" label="Chất lượng ưu tiên" values="Cao nhất|Thấp nhất|Hỏi mỗi lần" default="0"/>
+ </category>
+</settings>

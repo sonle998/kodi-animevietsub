@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addons><addon id="plugin.video.animevietsub" name="AnimeVietsub" version="0.1.0" provider-name="Thắng Phùng">
+ <requires><import addon="xbmc.python" version="3.0.0" /></requires>
+ <extension point="xbmc.python.pluginsource" library="addon.py"><provides>video</provides></extension>
+ <extension point="xbmc.addon.metadata"><summary lang="vi_VN">AnimeVietsub cho Kodi — bản thử nghiệm</summary><summary lang="en_GB">AnimeVietsub video add-on — experimental</summary><description lang="vi_VN">Danh sách phim, tìm kiếm, tập và nguồn phát trực tiếp tương thích Kodi. Trang xác minh, DRM và nguồn mã hóa riêng chưa được hỗ trợ.</description><description lang="en_GB">Browse, search, episodes and compatible direct streams. Site verification, DRM and proprietary encrypted sources are not supported.</description><platform>all</platform><license>GPL-3.0-only</license><assets><icon>resources/icon.png</icon><fanart>resources/fanart.jpg</fanart></assets></extension>
+</addon><addon id="repository.animevietsub" name="AnimeVietsub Repository" version="0.1.0" provider-name="Thắng Phùng">
+ <extension point="xbmc.addon.repository"><dir minversion="19.0.0"><info>https://sonle998.github.io/kodi-animevietsub/addons.xml</info><checksum>https://sonle998.github.io/kodi-animevietsub/addons.xml.md5</checksum><datadir>https://sonle998.github.io/kodi-animevietsub/packages/</datadir><hashes>sha256</hashes></dir></extension>
+ <extension point="xbmc.addon.metadata"><summary lang="vi_VN">Kho addon AnimeVietsub — thử nghiệm</summary><summary lang="en_GB">AnimeVietsub repository — experimental</summary><description lang="vi_VN">Kho cài addon AnimeVietsub cho Kodi 19 trở lên.</description><description lang="en_GB">Repository for the AnimeVietsub addon for Kodi 19 and newer.</description><platform>all</platform><license>GPL-3.0-only</license><assets><icon>resources/icon.png</icon></assets></extension>
+</addon></addons>
